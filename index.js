@@ -2,7 +2,7 @@ const { ApolloServer } = require('apollo-server');
 const mongoose= require('mongoose')
 const typeDefs = require('./graphql/typeDefs')
 const resolvers = require('./graphql/resolvers')
-gy
+
 const MONGODB = 'mongodb+srv://andreysev72:Gekina72$@cluster0.cb8edbh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 const server =new ApolloServer( {
     typeDefs,
